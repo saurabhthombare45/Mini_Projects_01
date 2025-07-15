@@ -1,5 +1,7 @@
 import random # random module which helps to choose the random number between 1,-1,0
 computer = random.choice([1,-1,0])#here how we define it
+print("----------THE RULES OF THE GAME----------")
+print("-----------------CHOOSE-----------------\n S for Snake 🐍\n W for Water 💧\n G for Gun 🔫")
 
 youstr=input("Enter your choice:-").strip().upper()#users input in S,s,G,g,W,w
 
